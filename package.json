@@ -1,0 +1,30 @@
+{
+  "name": "attr-boy",
+  "version": "1.0.0",
+  "description": "Lambda function factory for adding, removing, toggling an attribute on a DOM element",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tuxsudo/attr-boy.git"
+  },
+  "keywords": [
+    "dom",
+    "data-attributes",
+    "vanillajs",
+    "microlibrary"
+  ],
+  "author": "Jared Anderson <@tuxsudo>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tuxsudo/attr-boy/issues"
+  },
+  "homepage": "https://github.com/tuxsudo/attr-boy#readme",
+  "devDependencies": {
+    "babel": "^5.8.23",
+    "rollup": "^0.19.1",
+    "uglifyjs": "^2.4.10"
+  }
+}
