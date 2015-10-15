@@ -1,11 +1,11 @@
-function toggle(attr, value=1) {
+export default function(attr, value=1) {
 	return function(elm) {
-		if(element.hasAttribute(attr)) {
-			element.removeAttribute(attr);
+		if(elm.hasAttribute(attr)) {
+			elm.removeAttribute(attr);
 		} else {
-			element.setAttribute(attr, value);
+			elm.setAttribute(attr, value);
 		}
 
-		return element;
+		return elm;
 	}
 }
